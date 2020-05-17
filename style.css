@@ -49,3 +49,37 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
+/* Nav Section */
+
+nav {
+	min-height: 10vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+}
+
+ul {
+	display: flex;
+	flex: 1 1 60rem;
+	justify-content: space-around;
+	align-items: center;
+}
+
+li a:hover {
+	color: #006e79;
+}
+
+#logo {
+	flex: 2 1 40rem;
+}
+
+#logo span {
+	font-size: 2.6rem;
+}
+
+.first-word {
+	color: #006e79;
+}
