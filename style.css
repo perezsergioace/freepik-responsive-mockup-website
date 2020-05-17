@@ -96,7 +96,7 @@ li a:hover {
 /* Hero Section */
 
 .hero {
-	min-height: 50vh;
+	min-height: 55vh;
 	background: url(./images/building-img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -135,10 +135,6 @@ li a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-	html {
-		font-size: 55%;
-	}
-
 	.about-title {
 		width: 90%;
 	}
@@ -149,6 +145,22 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+	html {
+		font-size: 55%;
+	}
+
+	nav {
+		width: 90%;
+	}
+
+	ul {
+		display: none;
+	}
+
+	.hero {
+		min-height: 65vh;
+	}
+
 	.about-title {
 		width: 85%;
 	}
