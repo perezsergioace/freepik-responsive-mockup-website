@@ -59,6 +59,7 @@ nav {
 	align-items: center;
 	width: 92%;
 	margin: auto;
+	text-transform: uppercase;
 }
 
 ul {
@@ -113,6 +114,7 @@ li a:hover {
 
 .about-title h2 {
 	color: #006e79;
+	text-transform: uppercase;
 }
 
 .about-text-content {
