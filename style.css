@@ -92,9 +92,40 @@ li a:hover {
 /* Hero Section */
 
 .hero {
-	min-height: 90vh;
+	min-height: 50vh;
 	background: url(./images/building-img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+/* About Section */
+
+.about-title {
+	width: 80%;
+	margin: auto;
+	padding-top: 5rem;
+}
+
+.about-title h2 {
+	color: #006e79;
+}
+
+.about-text-content {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 85%;
+	margin: auto;
+	gap: 5rem;
+	text-align: justify;
+}
+
+.about-left,
+.about-right {
+	padding: 1rem;
+}
+
+.about-text-content .about-right {
+	background-color: #006e79;
+	color: white;
 }
